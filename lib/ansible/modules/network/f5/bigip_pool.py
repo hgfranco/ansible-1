@@ -145,7 +145,7 @@ options:
     version_added: 2.6
 notes:
   - Requires BIG-IP software version >= 12.
-  - To add members do a pool, use the C(bigip_pool_member) module. Previously, the
+  - To add members to a pool, use the C(bigip_pool_member) module. Previously, the
     C(bigip_pool) module allowed the management of users, but this has been removed
     in version 2.5 of Ansible.
 extends_documentation_fragment: f5
